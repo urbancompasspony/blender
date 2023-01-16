@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# To render remotely!
+# Original:
+# ~/.configuracoes/Blender/blender-lts/blender -b Water.blend -o //remote_render_ -f 1 -F PNG --
+
+# Path to Blender bin:
+blenderbin="~/.configuracoes/Blender/blender-lts/blender"
+
+# Path to Destination file:
+blenderdest="//remote_render_"
+
+# Default format of file:
+fileform="PNG"
+
+# Frames to render:
+blenderframe="1"
+
+# File:
+blenderfile="$1"
+
+# ToRun
+
+
+exit 1
