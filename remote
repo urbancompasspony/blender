@@ -67,7 +67,7 @@ function blenderender {
   echo "$blenderform" >> "$pathmount"
   echo "$namefile" >> "$pathmount"
 
-  "$blenderbin" -b "$wd"/"$namefile" -o "$blenderdest" -f "$blenderframe" -F "$blenderform" --
+  "$blenderbin" -b "$namefile" -o "$blenderdest" -f "$blenderframe" -F "$blenderform" --
 
   exit 0
   }
