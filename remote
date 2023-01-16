@@ -1,25 +1,79 @@
 #!/bin/bash
 
 # To render remotely!
-# Original:
+
+# Original commandline:
 # ~/.configuracoes/Blender/blender-lts/blender -b Water.blend -o //remote_render_ -f 1 -F PNG --
 
-# Path to Blender bin:
-blenderbin="~/.configuracoes/Blender/blender-lts/blender"
+# Check pathmount:
+pathmount="/tmp/pathmount"
 
-# Path to Destination file:
-blenderdest="//remote_render_"
+function blendervar {
+  [ -f  "$pathmount" ] && {
+    VALUE1=$(sed -n '1p' "$pathmount")
+    VALUE2=$(sed -n '2p' "$pathmount")
+    VALUE3=$(sed -n '3p' "$pathmount")
+    VALUE4=$(sed -n '4p' "$pathmount")
+    VALUE5=$(sed -n '5p' "$pathmount")
+    VALUE6=$(sed -n '6p' "$pathmount")
+  } || {
+    touch "$pathmount"
 
-# Default format of file:
-fileform="PNG"
+  # Where am I?
+    VALUE1="$( cd "$(dirname "$0")" ; pwd -P )"
+  # Path to Blender bin:
+    VALUE2="/home/$USER/.configuracoes/Blender/blender-lts/blender"
+  # Path to Destination file, default same as .blend location:
+    VALUE3="//remote_render_"
+  # Frames to render:
+    VALUE4="1"
+  # Default format of file:
+    VALUE5="PNG"
+  # File Name!
+    VALUE6=""
+}
 
-# Frames to render:
-blenderframe="1"
+function blenderender {
 
-# File:
-blenderfile="$1"
+  VALUE0=$(dialog --ok-label "Render!" --title "Remote Render" --form "Blender" 15 50 0 \
+"WhereAmI: " 1 1 "$VALUE1" 1 10 70 0 \
+"BIN:" 2 1 "$VALUE2" 2 10 70 0 \
+"Destiny:" 3 1 "$VALUE3" 3 10 34 0 \
+"Frames:" 4 1 "$VALUE4" 4 10 34 0 \
+"Format:" 5 1 "$VALUE5" 5 10 34 0 \
+"FILE:" 6 1 "$VALUE6" 6 10 34 0 \
+3>&1 1>&2 2>&3 3>&- > /dev/tty)
 
-# ToRun
+  case $? in
+    1) exit ;;
+  esac
 
+  wd=$(echo "$VALUE0" | sed -n 1p)
+  blenderbin=$(echo "$VALUE0" | sed -n 2p)
+  blenderdest=$(echo "$VALUE0" | sed -n 3p)
+  blenderframe=$(echo "$VALUE0" | sed -n 4p)
+  blenderform=$(echo "$VALUE0" | sed -n 5p)
+  namefile=$(echo "$VALUE0" | sed -n 6p)
+
+  [ -z "$wd" ] || [ -z "$blenderbin" ] || [ -z "$blenderdest" ] || [ -z "$blenderframe" ] || [ -z "$blenderform" ] || [ -z "$namefile" ] && {
+    dialog --title "ERRO" --msgbox "Não deixe nenhum campo vazio!" 7 30
+    blendervar
+    }
+
+  echo "$wd" > "$pathmount"
+  echo "$blenderbin" >> "$pathmount"
+  echo "$blenderdest" >> "$pathmount"
+  echo "$blenderframe" >> "$pathmount"
+  echo "$blenderform" >> "$pathmount"
+  echo "$namefile" >> "$pathmount"
+
+  "$blenderbin" -b "$wd"/"$namefile" -o "$blenderdest" -f "$blenderframe" -F "$blenderform" --
+
+  exit 0
+  }
+}
+
+blendervar
+blenderender
 
 exit 1
