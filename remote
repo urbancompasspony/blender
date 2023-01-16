@@ -19,55 +19,59 @@ function blendervar {
   } || {
     touch "$pathmount"
 
-  # Where am I?
-    VALUE1="$( cd "$(dirname "$0")" ; pwd -P )"
-  # Path to Blender bin:
-    VALUE2="/home/$USER/.configuracoes/Blender/blender-lts/blender"
-  # Path to Destination file, default same as .blend location:
-    VALUE3="//remote_render_"
-  # Frames to render:
-    VALUE4="1"
-  # Default format of file:
-    VALUE5="PNG"
   # File Name!
-    VALUE6=""
+    VALUE1=""
+  # Path to Destination file, default same as .blend location:
+    VALUE2="//remote_render_"
+  # Frames to render:
+    VALUE3="1"
+  # Default format of file:
+    VALUE4="PNG"
+  # Engine
+    VALUE5="CYCLES"
+  # Path to Blender bin:
+    VALUE6="/home/$USER/.configuracoes/Blender/blender-lts/blender"
+  # Where am I?
+    VALUE7="$( cd "$(dirname "$0")" ; pwd -P )"
 }
 
 function blenderender {
 
   VALUE0=$(dialog --ok-label "Render!" --title "Remote Render" --form "Blender" 15 50 0 \
-"WhereAmI: " 1 1 "$VALUE1" 1 10 70 0 \
-"BIN:" 2 1 "$VALUE2" 2 10 70 0 \
-"Destiny:" 3 1 "$VALUE3" 3 10 34 0 \
-"Frames:" 4 1 "$VALUE4" 4 10 34 0 \
-"Format:" 5 1 "$VALUE5" 5 10 34 0 \
-"FILE:" 6 1 "$VALUE6" 6 10 34 0 \
+"FILE:" 1 1 "$VALUE1" 1 10 34 0 \
+"Destiny:" 2 1 "$VALUE2" 2 10 34 0 \
+"Frames:" 3 1 "$VALUE3" 3 10 34 0 \
+"Format:" 4 1 "$VALUE4" 4 10 34 0 \
+"Engine:" 5 1 "$VALUE5" 5 10 34 0 \
+"BIN:" 6 1 "$VALUE6" 6 10 70 0 \
+"WhereAmI: " 7 1 "$VALUE7" 7 10 70 0 \
 3>&1 1>&2 2>&3 3>&- > /dev/tty)
 
   case $? in
-    1) exit ;;
+    1) rm "$pathmount"; exit ;;
   esac
-
-  wd=$(echo "$VALUE0" | sed -n 1p)
-  blenderbin=$(echo "$VALUE0" | sed -n 2p)
-  blenderdest=$(echo "$VALUE0" | sed -n 3p)
-  blenderframe=$(echo "$VALUE0" | sed -n 4p)
-  blenderform=$(echo "$VALUE0" | sed -n 5p)
-  namefile=$(echo "$VALUE0" | sed -n 6p)
+  namefile=$(echo "$VALUE0" | sed -n 1p)
+  blenderdest=$(echo "$VALUE0" | sed -n 2p)
+  blenderframe=$(echo "$VALUE0" | sed -n 3p)
+  blenderform=$(echo "$VALUE0" | sed -n 4p)
+  blenderengine=$(echo "$VALUE0" | sed -n 5p)
+  blenderbin=$(echo "$VALUE0" | sed -n 6p)
+  wd=$(echo "$VALUE0" | sed -n 7p)
 
   [ -z "$wd" ] || [ -z "$blenderbin" ] || [ -z "$blenderdest" ] || [ -z "$blenderframe" ] || [ -z "$blenderform" ] || [ -z "$namefile" ] && {
     dialog --title "ERRO" --msgbox "Não deixe nenhum campo vazio!" 7 30
     blendervar
     }
 
-  echo "$wd" > "$pathmount"
-  echo "$blenderbin" >> "$pathmount"
+  echo "$namefile" >> "$pathmount"
   echo "$blenderdest" >> "$pathmount"
   echo "$blenderframe" >> "$pathmount"
   echo "$blenderform" >> "$pathmount"
-  echo "$namefile" >> "$pathmount"
+  echo "$blenderengine" >> "$pathmount"
+  echo "$blenderbin" >> "$pathmount"
+  echo "$wd" > "$pathmount"
 
-  "$blenderbin" -b "$namefile" -o "$blenderdest" -f "$blenderframe" -F "$blenderform" --
+  "$blenderbin" -b "$namefile" -E "$blenderengine" -o "$blenderdest" -f "$blenderframe" -F "$blenderform" --
 
   exit 0
   }
