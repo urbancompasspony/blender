@@ -1,0 +1,8 @@
+To the object that will be solid:
+Physics Tab > set Collision
+
+To the object that will be clothified:
+Physics Tab > set Cloth
+TAB on the object > Right Click > Subdivide to around 50
+
+Turn on disk cache to have more FPS!
