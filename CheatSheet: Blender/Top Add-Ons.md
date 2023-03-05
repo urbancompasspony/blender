@@ -1,6 +1,7 @@
 Outside:
 
 [BlenderKit Online Asset Library](https://www.blenderkit.com/get-blenderkit/) (to add a nice repository inside Blender)
+
 [BagaPie](https://abaga.gumroad.com/l/BbGVh) (to add more meshes)
 
 Inside:
