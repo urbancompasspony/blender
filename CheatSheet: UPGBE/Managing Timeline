@@ -1,0 +1,9 @@
+You will need 3 panels:
+
+TimeLine
+Dope Sheet, changing mode to Action
+Nonlinear Animation (NLA)
+
+Use DopeSheet to create a New timeline.
+Use TimeLine to set keyframes of your new animation/pose/object/whatever
+Use NLA to create a new instance of that animation, isolating it to be used when you needed.
