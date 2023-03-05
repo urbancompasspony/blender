@@ -1,0 +1,20 @@
+For Both Blender and UPBGE:
+
+- Use less complex procedural textures
+- Ambient Occlusion: Distance 0.150 / Factor 1.00 / Trace 0.010
+- Bloom: Threshold 3.0 / Knee 0.5 / Radius 6.5 / Color White / Intensity 0.2 / Clamp 0
+- Depth of Field: Max 10 / Sprite 1 / Neighborhood 1.0 / Denoise 0.75 / HighQS. and Jitter not checked
+- Subsurface Scatering: Samples 2 / Jitter 0.3
+- Screen Space Reflections (ray tracing): Refraction not checked / Half RT. Checked / Trace 0.010 / Max 0.3 / Edge 0.5 / Clamp 0
+
+On Blender:
+
+- Exporting Image Format: OpenEXR (not Multilayer!)
+- Use Persistent Data to optimize.
+- Sampling: Render 30 / View 16 (more is better but slower)
+
+On UPBGE:
+
+- Use point instead of Spot for Lights (consume less resource)
+- Under Scene Settings, tunr on Culling (hide what is not being seen)
+- Sampling: SMAA not shecked
