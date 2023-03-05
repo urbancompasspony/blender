@@ -1,0 +1,9 @@
+Create a mesh plan
+Set your render, tested on cycles
+Create an "Image Texture node" but keep it empty
+Keep this node selected, highlighted!
+Edit Cycles to Pixel 16 to 1024
+Click Bake!
+
+Check ViewPort Shading Rendered if it is not black or buggy.
+World Light: 5.000 to keep a nice light!
