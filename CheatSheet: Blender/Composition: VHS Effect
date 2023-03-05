@@ -1,1 +1,15 @@
+Resolution: Set it to 640x480
+VHS are low res!
 
+Create 4 filters, 2 are Soften set to 1.0 and 2 are Sharpen set to 0.5.
+From first soften goes to first sharpen, then goes to second soften and finally second sharpen.
+It will "break" the image.
+
+Create a "Separate Color Node (RGB)", create a new "Soften filter node", a "Sharpen filter node", a "Transform node" and a "Combine Color node (RGB)".
+Filters Soften again set to 1.0, Sharpen to 0.5 and Transform set: Nearest, image X 1.0, Y 0.0, angle 0 and scale 1.000
+Link "Separate Color Node" RED to Soften, Green to Transform and Blue to Sharpen. The result goes to Combine Color.
+It will separate colors like the VHS does.
+
+For an effect like "overlay of date and time", create a MIX node, change it to Screen.
+Input of it is another node, a Scale, set to Render Size and tick Stretch.
+And another node, an Image with Alpha channel (.png!) and use ALPHA exit of node, not "image".
