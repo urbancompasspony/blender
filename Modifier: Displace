@@ -1,0 +1,8 @@
+Thanks to Guilherme Bretas for the tip!
+
+Create a new object.
+Subdivide surface around 50.
+Create a new modifier, Displace, click New.
+Texture, click "show texture on texture tab", click NEW or Open an Existing one.
+For better results use something black and white.
+Back to modifier, change coordinates do UV and adjust Strenght.
