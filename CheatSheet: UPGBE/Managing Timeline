@@ -7,3 +7,5 @@ Nonlinear Animation (NLA)
 Use DopeSheet to create a New timeline.
 Use TimeLine to set keyframes of your new animation/pose/object/whatever
 Use NLA to create a new instance of that animation, isolating it to be used when you needed.
+
+If not working over LogicBricks or LogicNodes, redo everything, even the timeline on NLA.
