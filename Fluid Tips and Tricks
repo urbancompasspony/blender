@@ -19,3 +19,8 @@ Check MESH
 
 Cache: Change type REPLAY to ALL
 Click BAKE!
+
+# To Stop Fluid Animation, like a water flow stopping, but animation continues.
+
+On Flow Object (normally a sphere) click on it and look for [x]FLOW on menu, set keyframe there!
+Boolean only.
