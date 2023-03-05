@@ -1,0 +1,4 @@
+Add "Image Texture Node" and apply your texture there!
+
+Then point the "Image Texture node" Color pin to Base Color of a "Principled BSDF" of your object.
+After this, you can set Mark Seam on faces and use UV Unwrap to generate the frames on "UV Editing Tab"
