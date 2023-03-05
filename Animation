@@ -1,0 +1,26 @@
+- Choose and download something from Mixamo, model and animation!
+Set IN PLACE if there is some animation like this, create movement inside UPBGE.
+Export as FBX., with Skin, Frames (30 or 60).
+
+- For every .FBX downloaded, create a new UPBGE File, clear scene, import fbx, rename animation on DopeSheet Action and save as .blend.
+Check from where frame is start and end of animation, will be important later.
+
+- Import every animation on your main.blend with File, Append... and choose just Action from file animation.blend created previously
+
+- Using Logic Nodes you can play animation with a condition (keyboard) and "play animation".
+Output "Running" will be "Apply Movement node", something around X 0.03 for walking and 0.13 for running.
+
+Attention to:
+Set Advanced
+Set object - the Armature of the animation!
+Start and End frame
+Play as Loop
+Uncheck Stop When Done to be smooth
+Speed to 1.5 or 2.0 if your animation is slower
+Blendin to 5.00, will create smooth transitions over different animations
+
+For Walk and Run, use AND and AND NOT nodes.
+Walk will occur when not Running
+But Running will occur when Walk and Running is pressed at same time.
+
+- To JUMP, as Idle is running all the time with each frame key UP, set the animation on a new layer, like 1.
