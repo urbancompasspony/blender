@@ -1,0 +1,19 @@
+- For FPS Game
+
+New Mesh Empty Arrows
+Allign with object
+Ctrl J on CAMERA
+
+New Collection
+UV Sphere (bullet)
+Configure color, size, etc.
+Right Click: Collection, set visibility, Hide All Inside
+
+Logic Brick on Arrows
+Button to Shoot (left click?) + and + Edit Object
+Time: 300 (5x 60 fps)
+
+Logic Brick on Bullet
+Aways + And + Motion
+Linear Vector: +20 Y
+Check L
