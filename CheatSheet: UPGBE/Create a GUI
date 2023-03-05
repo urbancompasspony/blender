@@ -1,0 +1,10 @@
+Create a new Collection out of Main One (organize everything if needed to have a big GAME collection and a GAMEOVER collection, for example)
+
+New Camera, set a name
+Set Orthographic, value 30
+
+Logic Bricks
+A button/effect/etc + And + Collection
+Set collection-name
+Mode: Add Overlay Collection
+Camera: The new one.
