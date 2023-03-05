@@ -1,0 +1,2 @@
+Dynamic: Move but not rotate
+Rigid Body: More complex, move and rotate if influenced by another object. Heavy on CPU!
