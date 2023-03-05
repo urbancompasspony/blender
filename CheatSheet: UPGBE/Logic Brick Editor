@@ -1,0 +1,5 @@
+# Running some script .py inside the UPBGE:
+
+Sensor > Aways (mark Pulse True Level up, set 0) > Controllers Python.py
+
+When same time on same object attention to Layer 1+ and maybe be buggy!
