@@ -1,0 +1,16 @@
+Key Down: keep running
+Tap: run once
+
+Events
+On Next Tick: Conditional
+On Update: Every frame
+Once: 1x
+
+Mouse Camera? Moved + Look
+Over: Just passing by over
+
+To open a door:
+Get Position > Character and/or Object + Button Compare + And + Apply Physics
+Start Logic Tree
+Stop Logic Tree
+
