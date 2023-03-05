@@ -1,11 +1,17 @@
 For Both Blender and UPBGE:
 
+- Scene Properties: Units / Metric
+
 - Use less complex procedural textures
 - Ambient Occlusion: Distance 0.150 / Factor 1.00 / Trace 0.010
 - Bloom: Threshold 3.0 / Knee 0.5 / Radius 6.5 / Color White / Intensity 0.2 / Clamp 0
 - Depth of Field: Max 10 / Sprite 1 / Neighborhood 1.0 / Denoise 0.75 / HighQS. and Jitter not checked
 - Subsurface Scatering: Samples 2 / Jitter 0.3
 - Screen Space Reflections (ray tracing): Refraction not checked / Half RT. Checked / Trace 0.010 / Max 0.3 / Edge 0.5 / Clamp 0
+- Volumetrics: Tile 2
+- Shadows: Cube 128 / Cascade 128 / SoftShadows checked / Light T. 0.02 (lower is brighter)
+- Indirect Lighting: Diffuse 3 / Cube 128px / D.O. 32 px
+- Color Management: Filmic / Medium High Contrast
 
 On Blender:
 
@@ -15,6 +21,8 @@ On Blender:
 
 On UPBGE:
 
+- A nice tab organization: Layout | LogicNodes | LogicBricks | TimeLine | NLA | Shading | Scripting | UV Editing | GameTest
+- Camera for FPS Game: Perspective 90 / Field of View / Clip End 2.000 / Camera Auto 32 mm / LOD 0.1
 - Use point instead of Spot for Lights (consume less resource)
 - Under Scene Settings, tunr on Culling (hide what is not being seen)
 - Sampling: SMAA not shecked
