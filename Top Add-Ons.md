@@ -2,6 +2,8 @@ Outside:
 
 * [BlenderKit Online Asset Library](https://www.blenderkit.com/get-blenderkit/) (to add a nice repository inside Blender)
 * [BagaPie](https://abaga.gumroad.com/l/BbGVh) (to add more meshes)
+* [Mixamo Rigs](https://substance3d.adobe.com/plugins/mixamo-in-blender/) (Add-on for Rig!)
+* [Expy Kit](https://github.com/pKrime/Expy-Kit) (To convert rigs from different platforms and insert on different meshs)
 
 Inside:
 
@@ -28,3 +30,5 @@ Inside:
 * Import-Export: PLY Format
 * Import-Export: gITF Format
 * Render: Cycles Engine (MUST HAVE to high quality renders)
+* Camera: Add Camera Rigs
+* Rigging: Rigify
