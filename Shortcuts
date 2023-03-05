@@ -1,0 +1,20 @@
+To divide objects:
+Bevel: LCtrl + B
+or
+Subdivision Modifier
+
+LoopCuts: LCtrl + R
+Undo LoopCuts: 2x G
+
+Merge: M
+Merge Edges: Tab, M
+Merge Faces: F
+
+Apply: LCtrl + A
+AutoExtrude: LCtrl + RightClick
+
+Search: F3
+
+Group Nodes: Ctrl + J
+Rename Nodes or Groups: F2
+
