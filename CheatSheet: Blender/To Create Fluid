@@ -1,0 +1,21 @@
+To Solid:
+Physics Tab > Fluid
+Type Effector
+Collision
+
+To Liquid:
+Physics Tab > Fluid
+Type: Flow / Liquid
+Settings: Inflow
+
+To Domain (a box around Solid and Liquid):
+Physics Tab > Fluid
+Type: Domain / Liquid
+Resolution: Not more than 64 or will be laggy
+TimeScale: 1.0 or More (more is faster, more fluid like water)
+
+Check viscosity if you want something like honey
+Check MESH
+
+Cache: Change type REPLAY to ALL
+Click BAKE!
