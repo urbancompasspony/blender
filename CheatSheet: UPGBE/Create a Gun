@@ -8,6 +8,7 @@ New Collection
 UV Sphere (bullet)
 Configure color, size, etc.
 Right Click: Collection, set visibility, Hide All Inside
+Set Bullet as DYNAMIC!
 
 Logic Brick on Arrows
 Button to Shoot (left click?) + and + Edit Object
@@ -16,4 +17,4 @@ Time: 300 (5x 60 fps)
 Logic Brick on Bullet
 Aways + And + Motion
 Linear Vector: +20 Y
-Check L
+Check the little L
