@@ -8,7 +8,7 @@ New Collection
 UV Sphere (bullet)
 Configure color, size, etc.
 Right Click: Collection, set visibility, Hide All Inside
-Set Bullet as DYNAMIC!
+Set Bullet as DYNAMIC and uncheck Actor!
 
 Logic Brick on Arrows
 Button to Shoot (left click?) + and + Edit Object
