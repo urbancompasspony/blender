@@ -1,0 +1,12 @@
+import bpy
+
+FRAME_START = 1
+FRAME_END = 250
+
+currentFrame = bpy.data.scenes["Scene"].frame_current
+setFrame = bpy.data.scenes["Scene"].frame_set
+
+if currentFrame < FRAME_START or currentFrame > FRAME_END:
+    bpy.data.scenes["Scene"].frame_set(FRAME_START)
+elif currentFrame >= FRAME_START and currentFrame < FRAME_END:
+    setFrame((currentFrame + 1) % FRAME_END)
