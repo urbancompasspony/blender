@@ -1,0 +1,18 @@
+Create a character animated or object moving around
+
+LogicNodes:
+On Update 
++ NODE Apply Movement
+Local
+Set Object
+Y 0.02
+
+Collision
+Each Frame
+Set a Sensor on front of object (to have time to turn around)
+Property (Create a simple property aaa to every object to evade)
+When Colliding +
+
+Apply Rotation
+Main object
+90 degrees
