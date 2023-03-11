@@ -1,0 +1,16 @@
+
+Noise Texture
+3D
+Scale 5.000
+Detail 15.000
+Roughness 1.000
+Distortion 0.0
+
+Color <> Height
+
+Bump
+Strength 0.75
+
+Normal <> Normal
++
+Principled BSDF > Material Output
