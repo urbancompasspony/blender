@@ -35,4 +35,10 @@ GENERATE
 
 Deform Modifiers
 
-
+* Armature - It add a rig to a model to animate it.
+* Cast - Can turn things on spheres, cylinders or cuboids.
+* Curve - Set an object along a curve, you can even set an array along a curve!
+* Displace - Uses a texture as coordinate to create a deformating of your mesh up and down, ideal for create a 3D form of a 2D image.
+* Hook - Uses an object like an empty to edit the geometry of another object.
+* Laplacian Deform - Using hooks on vertex groups you can deform a mesh, like turning a horse into a giraffe.
+* Lattice - 
