@@ -20,6 +20,17 @@ Input Nodes
 
 Shader Nodes
 
+* Add Shader - Will just add a shader data on top of another shader
+* Anisotropic BSDF - Adjust the effect seen on bottom of a kitchen pan! Bends the light around a point.
+* Diffuse BSDF - The old default node for materials.
+* Emission - Turns any surface as a emission surface.
+* Glass BSDF - Turns any surface as a glass.
+* Hair BSDF - To hair simulations. Replaced by Principled BSDF
+* Principled BSDF - The Default node for any material.
+* Holdout - Turns an object into a mask alpha, something invisible.
+* Mix Shader - Is used to mix shaders with adjustable proportion
+* 
+
 Texture Nodes
 
 Color Nodes
