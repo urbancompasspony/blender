@@ -1,9 +1,22 @@
 Input Nodes
 
-* Ambient Occlusion - Sets AO for a mesh.
-* Attribute - 
-* Camera Data - 
-* Geometry - 
+* Ambient Occlusion - Sets AO
+* Attribute - Create a specific attribute of Color or Vector based on Name
+* Camera Data - Set configuration for Camera
+* Fresnel - An algorithm that determines where light should be reflected or refracted; used for mixing two materials
+* Geometry - Can set parameters of geometry of an object, changing how it is rendered through shaders
+* Hair Info - Set details about Hair from Particles Modifier
+* Layer Weight - Work similar to fresnel node but has more options
+* Light Path - Changes how light is passing by a material, making even glowy ones!
+* Object Info - Catch information to avoid repetition
+* Particle Info - Catch information to avoid repetition
+* RGB - Returns a pre defined color
+* Tangent - More used with custom Anisotropic BSDF node
+* Texture Coordinate - Set where a texture should be. You can use Eyedrop to select another object to copy parameters as reference to generate texture.
+* UV Map - To catch just one UV Map, ideal when you have lot's of UV Maps on the same object.
+* Vallue - Generates a pre determined value
+* Wireframe - Apply wireframe effect to a material
+* Material Output - The End of all nodes setup.
 
 Shader Nodes
 
