@@ -60,6 +60,15 @@ Texture Nodes
 
 Color Nodes
 
+* Brightness/Contrast - Sets brightness and contrast of textures
+* Gamma -Adjusts Brightness on another way
+* Hue Saturation Value - Set how strong or weak is the colors of a material
+* Invert - Inverts color or black to white and vice-versa
+* Mix RGB - Mix 2 colors or textures
+* Overlay - Set how a color or texture will be applyed over another color or texture
+* Light Falloff - Normally used on lamps to create paterns
+* RGB Curves - Used for color correction
+
 Vector Nodes
 
 Converter Nodes
