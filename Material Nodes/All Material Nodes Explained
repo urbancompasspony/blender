@@ -44,7 +44,19 @@ Shader Nodes
 
 Texture Nodes
 
-
+* Brick Texture - Creates bricks paterns
+* Checker Texture - To create a Chess pattern
+* Environment Texture - Puts a texture in the skybox of the scenery, on World Output, not an object!
+* Gradient Texture - Creates a pre determined gradient based on two inputs
+* IES Texture - Special textures with special files
+* Image Texture - Just set's an image as a texture. Useful to set easy UV Maps. You can use Videos too.
+* Magic Texture - It's just magic!
+* Musgrave Texture - Used to create random patterns for nature textures
+* Noise Texture - Creates noise to be applyed over meshs, creating patterns.
+* Sky Texture - Used to set sky on World Output.
+* Voronoi Texture - Creates a specific pattern of randomness but same time not so random
+* Wave Texture - Creates wave patterns
+* White Noise Texture - Another kind of noise, seen on blank TV Channel or something
 
 Color Nodes
 
