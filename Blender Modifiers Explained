@@ -41,4 +41,16 @@ Deform Modifiers
 * Displace - Uses a texture as coordinate to create a deformating of your mesh up and down, ideal for create a 3D form of a 2D image.
 * Hook - Uses an object like an empty to edit the geometry of another object.
 * Laplacian Deform - Using hooks on vertex groups you can deform a mesh, like turning a horse into a giraffe.
-* Lattice - 
+* Lattice - Create a empty object around your main object and deform it based on this empty object. Ideal for high density models with lots of objects together.
+* Mesh Deform - Like the lattice, but using a mesh instead.
+* Shrinkwrap - It merges an object, like a plane, into another one. Is some sort of re-topology modifier.
+* Simple Deform - Twist or even bend objects in simple ways.
+* Smooth - Can deform an object based on the model itself, careful because when doing this on Suzanne you can create something out of nightmares.
+* Smooth Corrective - Fix mistakes on object Armature
+* Laplacian Smooth - Works on faces of a mesh, creating smoothier holes for example.
+* Surface Deform - Let you deform something based on another object, all the mesh, ideal for add wind effect on complex curtains for example.
+* Warp - Proportional deform based on starting point and ending point, like 2 empty objects deforming a plane until it becomes a sphere.
+* Wave - Creates a wave animation through a mesh.
+
+Simulate
+
