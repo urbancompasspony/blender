@@ -71,6 +71,16 @@ Color Nodes
 
 Vector Nodes
 
+* Bump - Will create a normal output based on height map input, creating a fake geometry based on shaders.
+* Vector Curves - Like RGB Curves is used for vector corrections, used not so often.
+* Displacement - Will get a heigh map and displace over the objects faces, creating real geometry based on mesh.
+* Mapping - Control position, rotation and scale of texture on a model
+
 Converter Nodes
+
+* What its name says, convert a thing to another
+
+* Blackbody - Used to convert temperature reading on color, for example.
+* Clamp - 
 
 Misc Nodes
