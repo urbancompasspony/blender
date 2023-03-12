@@ -54,3 +54,12 @@ Deform Modifiers
 
 Simulate
 
+* Cloth - More used from Physics Tab: creates a simulation of cloth on a mesh.
+* Collision - More used from Physics Tab: creates a mesh that will be solid for a cloth for example.
+* Dynamic Paint - More used from Physics Tab: Creates a deformation on mesh based on another object as reference. Needs a brush and a canvas.
+* Fluid Simulation - More used from Physics Tab: Creates a fluid simulation based on mantaflow. Needs 2 objects: a DOMAIN and a FLUID.
+* Soft Body - More used from Physics Tab: Used to create jelly effect on objects.
+* Explosion - Divide an object and it will break, ideal to do something that is broken and falling apart.
+* Ocean - Creates a deformation that will looks like waves of ocean. Ideal for bigger planes but can be adjusted to small ones.
+* Particle Instance - Allow you to copy a particle system of an object and use it on another one.
+* Particle System - Creates a particle emitter for simple particles or "hair".
