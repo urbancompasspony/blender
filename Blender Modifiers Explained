@@ -25,4 +25,14 @@ GENERATE
 * Mirror - Will mirror objects replicating a side, face, form, etc indo equal one but in mirror shaped format.
 * Multiresolution - Is like a subdivision modifier but with more complex effects and options to subdivide edges of meshs.
 * Remesh - Changes the topology of a mesh to something like sharp, smooth or even block option, the last one looks like voxel style.
-* 
+* Screw - Creates a screw from a mesh. You can set angle and how often will be repeated, something like mirror and array together.
+* Skin - Creates a sort of chats around the edges of a mesh, like using a box you can create a low poly tree.
+* Solidify - Creates a Z axis based on face of a mesh, if using on a plane, it gain thickness. If using on a cube, it will have thick faces.
+* Subdivision - Subdivide surface of a mesh, creating smooth models. Can be set to just viewport or on rendering.
+* Triangulate - Let you turn in triangles a mesh that is based on squared/polygon faces.
+* Wireframe - Automatically creates a wireframe of a mesh.
+* Weld - Merge faces of meshs based on distance, to keep together faces that are close enough.
+
+Deform Modifiers
+
+
