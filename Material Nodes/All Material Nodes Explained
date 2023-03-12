@@ -97,4 +97,9 @@ With ColorRamp, now yes you can create a cell shading effect!
 * Vector Math - The same as Math node but with vectors instead of single values.
 * Wavelength - Create a color from a single number. Easy to animate some kind of RGB Gaming Cube animation.
 
-Misc Nodes
+Misc
+
+* Scripts - Run .py scripts outside .blend
+* Group Option - Creates a group of nodes that became a single node
+* Layout Notes - Frame to name a group of nodes
+* Reroute - To create a subdivision to create new route connection for nodes!
