@@ -81,6 +81,20 @@ Converter Nodes
 * What its name says, convert a thing to another
 
 * Blackbody - Used to convert temperature reading on color, for example.
-* Clamp - 
+* Clamp - It is a form of limiting function for other nodes, like limiting the maximum and minimum amount of data to a material.
+* ColorRamp - Apply fade effect between 2 or more colors.
+* Separate RGB - Separate the RGB channel on 3 independent channels. Used to VHS Old School effects.
+* Combine RGB - Combine the 3 independent RGB channels into one RGB channel.
+* Separate XYZ - The same as Separate RGB but for Axis
+* Combine XYZ - The same as Combine RGB but for Axis
+* Separate HSV - The same as Combine RGB but for Hue/Saturation
+* Combine HSV - The same as Combine RGB but for Hue/Saturation
+* MapRange - Change the limits of a texture vector.
+* Math - Math operations to parameters and values.
+* RGB to BW - Converts RGB to Black and White colors
+* Shader to RGB - Converts Shader to RGB, including Light. Put on out of Principled BSDF and pass Color result to Material Output.
+With ColorRamp, now yes you can create a cell shading effect!
+* Vector Math - The same as Math node but with vectors instead of single values.
+* Wavelength - Create a color from a single number. Easy to animate some kind of RGB Gaming Cube animation.
 
 Misc Nodes
