@@ -10,5 +10,19 @@ MODIFY
 * UV Project - Select an object as projector for UV Maps, so even if object is rotating, the projection keeps on same side of origin.
 * UV Warp - Allows to use external objects like "empty axis" and use it to alter the UV projection of another object.
 * Vertex Weight Edit - Select vertex group to edit, so you can do some things like change painting job for vertex and create height on meshs.
-* Vertex Group Mix - Like the Vertex Weight but working as Mix to multiple Vertex.
-* Vertex Weight Proximity - 
+* Vertex Group Mix - Like the Vertex Weight but working as Mix to multiple Vertex Groups.
+* Vertex Weight Proximity - Set an mesh as "sensor" to create some kind of effects on Vertex Groups.
+
+GENERATE
+
+* Array - Replicate a mesh, creating paterns based on coordinates like rotate, scale and etc.
+* Bevel - Creates bevels, a kind of sub-surface on all Edges of a mesh, that can be curved ones or regular ones.
+* Boolean - Can be used to cut objects using other objects as reference and setting special parameters for this.
+* Build - Create a cool effect of a mesh being "build" face by face through timeline.
+* Decimate - Let you to remove excessive edges of a mesh and is something like the reverse of subdivision modify, turning a complex mesh into a low poly one.
+* Edge Split - Separate a face from another face based on edges. A cube can be 6 single plane meshs.
+* Mask - Hides objects based on vertex groups or armature.
+* Mirror - Will mirror objects replicating a side, face, form, etc indo equal one but in mirror shaped format.
+* Multiresolution - Is like a subdivision modifier but with more complex effects and options to subdivide edges of meshs.
+* Remesh - Changes the topology of a mesh to something like sharp, smooth or even block option, the last one looks like voxel style.
+* 
