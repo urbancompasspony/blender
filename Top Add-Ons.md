@@ -32,3 +32,4 @@ Inside:
 * Render: Cycles Engine (MUST HAVE to high quality renders)
 * Camera: Add Camera Rigs
 * Rigging: Rigify
+* Node: Node Wrangler (to best workflow with material nodes)
