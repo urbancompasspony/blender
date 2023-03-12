@@ -1,0 +1,7 @@
+Based on this video:
+https://youtu.be/8BQYAwDW6IE
+
+* Data Transfer - Project normals from an object direct on another.
+* Mesh Cache - Creates a cache for animation that can be saved as .mdd and imported before. (requires extra add-on for handle .mdd files)
+* Normal Edit - Most used for set lots os mesh trees facing the camera or even setting a light to follow the direction of a specific mesh.
+* 
