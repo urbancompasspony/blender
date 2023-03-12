@@ -1,0 +1,27 @@
+Create a cube
+
+Noise Texture:
+Scale 3.000
+Detail 15.000
+Rough. 0.5
+Distortion 0
+
+Fac > Value
+
+Map Range
+Float
+Linear
+[X] Clamp
+
+Result > Factor
+
+Color Ramp B&W
+Arrows, black at "R" and white at "L"
+
+Color > Density
+
+Principled Volume
+
+Volume > Volume
+
+Material Output
