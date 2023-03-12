@@ -1,3 +1,6 @@
+Based on this video:
+https://youtu.be/cQ0qtcSymDI
+
 Input Nodes
 
 * Ambient Occlusion - Sets AO
@@ -25,13 +28,23 @@ Shader Nodes
 * Diffuse BSDF - The old default node for materials.
 * Emission - Turns any surface as a emission surface.
 * Glass BSDF - Turns any surface as a glass.
-* Hair BSDF - To hair simulations. Replaced by Principled BSDF
+* Hair BSDF - To hair simulations. Replaced by Principled Hair BSDF
 * Principled BSDF - The Default node for any material.
 * Holdout - Turns an object into a mask alpha, something invisible.
 * Mix Shader - Is used to mix shaders with adjustable proportion
-* 
+* Principled Hair BSDF - The default hair simulation inside Particle System
+* Refraction BSDF - Ajust refractions of the material
+* Subsurface Scatering - Useful for things like wax, skin or marbles.
+* Toon BSDF - Used to create a cartoon style material. THIS IS NOT used for cell shading effect!
+* Translucent BSDF - Increases the capacity to see through the objects
+* Transparent BSDF - Set capacity to see through the objects entirely
+* Velvet BSDF - Used for fabric based reflections
+* Volume Scatter - Set how light scatter through volumes, like on Subsurface Scatering
+* Volume Absorption - Set how light absorves light through volumes
 
 Texture Nodes
+
+
 
 Color Nodes
 
