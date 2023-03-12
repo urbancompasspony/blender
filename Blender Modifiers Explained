@@ -1,7 +1,14 @@
 Based on this video:
 https://youtu.be/8BQYAwDW6IE
 
+MODIFY
+
 * Data Transfer - Project normals from an object direct on another.
-* Mesh Cache - Creates a cache for animation that can be saved as .mdd and imported before. (requires extra add-on for handle .mdd files)
-* Normal Edit - Most used for set lots os mesh trees facing the camera or even setting a light to follow the direction of a specific mesh.
-* 
+* Mesh Cache - Creates a cache for animation that can be saved as .mdd and imported before. (requires extra add-on "mdd import export" to handle .mdd files)
+* Normal Edit - Most used for set lots os mesh trees facing the camera; set normals of an object based on another one.
+* Weighted - Ties normals of objects making them with smooth edges when using something like subdivision modifier and the faces or vertices become irregular.
+* UV Project - Select an object as projector for UV Maps, so even if object is rotating, the projection keeps on same side of origin.
+* UV Warp - Allows to use external objects like "empty axis" and use it to alter the UV projection of another object.
+* Vertex Weight Edit - Select vertex group to edit, so you can do some things like change painting job for vertex and create height on meshs.
+* Vertex Group Mix - Like the Vertex Weight but working as Mix to multiple Vertex.
+* Vertex Weight Proximity - 
