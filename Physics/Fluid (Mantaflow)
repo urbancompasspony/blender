@@ -24,3 +24,7 @@ Click BAKE!
 
 On Flow Object (normally a sphere) click on it and look for [x]FLOW on menu, set keyframe there!
 Boolean only.
+
+GOLD RULE:
+It's important that Voxel Size of Domain is smaller than the Inflow (Sphere) Object!
+So either make the Inflow Object bigger; or increase the Resolution Divisions (32 by default to something like 250)
