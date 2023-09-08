@@ -1,11 +1,13 @@
-You will need 3 panels:
+You will need 2 panels:
 
-TimeLine
-Dope Sheet, changing mode to Action
-Nonlinear Animation (NLA)
+1) TimeLine, changing EDITOR TYPE to Dope Sheet!
+Under Dope Sheet, change Editing Context to Action!
+2) Nonlinear Animation (NLA)
+
 
 Use DopeSheet to create a New timeline.
 Use TimeLine to set keyframes of your new animation/pose/object/whatever
-Use NLA to create a new instance of that animation, isolating it to be used when you needed.
+Use NLA to create a new instance of that animation, isolating it to be used when you needed!
+The NLA is the secret to have multiple animations running on separate timelines
 
 If not working over LogicBricks or LogicNodes, redo everything, even the timeline on NLA.
