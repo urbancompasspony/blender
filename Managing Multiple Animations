@@ -1,9 +1,13 @@
-You will need 2 panels:
+You will need 2 workspaces, one of them with 2 panels.
+The first one, with 2 panels:
 
-1) TimeLine, changing EDITOR TYPE to Dope Sheet!
-Under Dope Sheet, change Editing Context to Action!
-2) Nonlinear Animation (NLA)
+1) Editor Type: Timeline
 
+2) Editor Type: Dope Sheet!
+Editing Context: Action!
+
+The second workspace:
+Nonlinear Animation (NLA)
 
 Use DopeSheet to create a New timeline.
 Use TimeLine to set keyframes of your new animation/pose/object/whatever
