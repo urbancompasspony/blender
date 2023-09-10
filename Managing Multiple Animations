@@ -14,4 +14,8 @@ Use TimeLine to set keyframes of your new animation/pose/object/whatever
 Use NLA to create a new instance of that animation, isolating it to be used when you needed!
 The NLA is the secret to have multiple animations running on separate timelines
 
+On NLA, edit timeline and set ACTIVE STRIP to:
+Extrapolation: Nothing
+Blending: Combine
+
 If not working over LogicBricks or LogicNodes, redo everything, even the timeline on NLA.
