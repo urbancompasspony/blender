@@ -1,5 +1,5 @@
 Nodes used here:
-[ Image Node ]
+[ Image Texture ]
 [ Transparent BSDF ]
 [ Principled BSDF ]
 [ Mix Shader ]
@@ -11,7 +11,7 @@ Generate a new Ivy on mesh with Cursor on it.
 Click on tale and set color to brown
 Click on leafs and:
 
-[ Image Node ]
+[ Image Texture ]
 Insert (leaf_hedera_helix_example.PNG), something with alpha channel.
 COLOR <---> BASE COLOR [ Principled BSDF ]
 ALPHA <---> FAC [ Mix Shader ]
