@@ -1,0 +1,17 @@
+Nodes used here:
+[ Noise Texture ]
+[ Bump ]
+[ Principled BSDF ]
+[ Material Output ]
+
+[ Noise Texture ]
+Detail 15.000
+Roughness 1.000
+COLOR <---> HEIGHT [ Bump ]
+
+[ Bump ]
+Strength 0.75
+NORMAL <---> NORMAL [ Principled BSDF ]
+
+[ Principled BSDF ]
+BSDF <---> SURFACE [ Material Output ]
