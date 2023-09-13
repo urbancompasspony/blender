@@ -1,0 +1,28 @@
+Nodes used here:
+[ Noise Texture ]
+[ Map Range ]
+[ Color Ramp ]
+[ Principled Volume ]
+[ Material Output ]
+
+Create a Mesh.
+
+[ Noise Texture ]
+Scale 3.000
+Detail 15.000
+Rough. 0.5
+Distortion 0
+FAC <--> VALUE [ Map Range ]
+
+[ Map Range ]
+RESULT <---> FAC [ Color Ramp ]
+
+[ Color Ramp ]
+Keep default Black and White!
+Arrows, black at "R" (RGB) and white at "L" (Linear)
+COLOR > DENSITY [ Principled Volume ]
+
+[ Principled Volume ]
+VOLUME <---> VOLUME [ Material Output ]
+
+Tip: Put a light source behind to set color of this cloud/fog on a better and natural way, even if white one!
