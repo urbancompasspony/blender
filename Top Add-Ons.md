@@ -8,6 +8,7 @@ Outside:
 Inside:
 
 * Add Curve: ExtraObjects (to add more curves)
+* Add Curve: Ivygen (generate ivy!)
 * Add Mesh: Archimesh (to add more meshes)
 * Add Mesh: A.N.T. Landscape (to generate procedural terrain)
 * Add Mesh: Discombulator (to discombulator some things idk)
