@@ -1,40 +1,38 @@
-Principled BSDF:
+Nodes used here:
+[ Noise Texture ]
+[ Texture Coordinate ]
+[ Mapping ]
+[ Musgrave Texture ]
+[ Bump ]
+[ Principled BSDF ]
+
+[ Principled BSDF ]
 Metallic: 0.2
 Roughness: 0
-ClearCoat: 0
 Transmission: 1
-[ BASE COLOR ] <> [SURFACE of Material Output]
-[NORMAL01]
+BSDF <---> SURFACE [ Material Output]
 
-+
-
-Noise Texture:
+[ Noise Texture ]
 Scale 6.000
 Detail: 2.500
 Roughness: 0.2
 Dist: 1.5
-[FOC] <> [DISPLACEMENT of Material Output]
+FAC <---> DISPLACEMENT [ Material Output]
 
-+
+[ Texture Coordinate ]
+Object <---> Vector [ Mapping ]
 
-Texture Coordinate > Object to Vector of Mapping
+[ Mapping ]
+Vector of Musgrave Texture
 
-+
-
-Mapping <> Vector of Musgrave Texture
-
-+
-
-Musgrave Texture:
+[ Musgrave Texture ]
 6.800
 10.600
 1.200
 1.700
 
-Neigh of Musgrave to Heigh of BUMP
+Neigh of Musgrave <---> HEIGH [ Bump ]
 
-+
-
-BUMP
+[ Bump ]
 Strenghth 0.2
-NORMAL of BUMP to NORMAL of BSDF [NORMAL01 above]!
+NORMAL <---> NORMAL [ Principled BSDF ]
