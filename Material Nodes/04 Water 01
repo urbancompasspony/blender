@@ -1,0 +1,17 @@
+Nodes used here:
+[ Principled BSDF ]
+[ Noise Texture ]
+[ Material Output]
+
+[ Principled BSDF ]
+Metallic: 0.2
+Roughness: 0
+Transmission: 1
+BSDF <---> SURFACE [ Material Output]
+
+[ Noise Texture ]
+Scale 6.000
+Detail: 2.500
+Roughness: 0.2
+Dist: 1.5
+FAC <---> DISPLACEMENT [ Material Output]
