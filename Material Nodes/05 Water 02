@@ -6,6 +6,23 @@ Nodes used here:
 [ Bump ]
 [ Principled BSDF ]
 
+[ Texture Coordinate ]
+OBJECT <---> VECTOR [ Mapping ]
+
+[ Mapping ]
+VECTOR <---> VECTOR [ Musgrave Texture ]
+
+[ Musgrave Texture ]
+Scale 6.800
+Detail 10.600
+Dimension 1.200
+Lacunalirity 1.700
+HEIGH <---> HEIGH [ Bump ]
+
+[ Bump ]
+Strenghth 0.2
+NORMAL <---> NORMAL [ Principled BSDF ]
+
 [ Principled BSDF ]
 Metallic: 0.2
 Roughness: 0
@@ -18,21 +35,3 @@ Detail: 2.500
 Roughness: 0.2
 Dist: 1.5
 FAC <---> DISPLACEMENT [ Material Output]
-
-[ Texture Coordinate ]
-Object <---> Vector [ Mapping ]
-
-[ Mapping ]
-Vector of Musgrave Texture
-
-[ Musgrave Texture ]
-6.800
-10.600
-1.200
-1.700
-
-Neigh of Musgrave <---> HEIGH [ Bump ]
-
-[ Bump ]
-Strenghth 0.2
-NORMAL <---> NORMAL [ Principled BSDF ]
