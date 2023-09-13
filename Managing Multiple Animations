@@ -18,4 +18,5 @@ On NLA, edit timeline and set ACTIVE STRIP to:
 Extrapolation: Nothing
 Blending: Combine
 
+On UPBGE:
 If not working over LogicBricks or LogicNodes, redo everything, even the timeline on NLA.
