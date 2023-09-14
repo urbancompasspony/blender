@@ -1,1 +1,25 @@
-WIP!
+Render: Cycles
+Supported
+GPU Compute
+
+Sampling, Viewport:
+> Noise Threshold: 0.1
+> Max Samples: 200
+> Min Samples: 0
+Not set Denoise here!
+
+Sampling, Render:
+> Noise Threshold: 0.01
+> Max Samples: 200
+> Min Samples: 0
+Set Denoise here!
+
+Performance, Memory:
+Use tiling
+2048
+
+Color Management, View Transformation:
+Filmic
+Look: Medium High Contrast
+
+
