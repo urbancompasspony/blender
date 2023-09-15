@@ -20,6 +20,7 @@ Inside:
 * Object: Object Carver
 * Object: Cell Fracture (to explode some things)
 * Animation: Pose Library
+* Import-Export: Import Images as Planes
 * Import-Export: Biovision Motion Cap (for animations)
 * Import-Export: DAZ Importer (for models)
 * Import-Export: FBX Format (for models)
