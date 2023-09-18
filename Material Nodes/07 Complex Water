@@ -1,7 +1,5 @@
 
 Nodes used here:
-[ Texture Coordinate ]
-[ Mapping ]
 [ Musgrave Texture ]
 [ Bump ]
 [ Principled BSDF ]
@@ -10,14 +8,8 @@ Nodes used here:
 [ Volume Absorption ]
 [ Mix Shader ]
 
-[ Texture Coordinate ]
-OBJECT <---> VECTOR [ Mapping ]
-
-[ Mapping ]
-VECTOR <---> VECTOR [ Musgrave Texture ]
-
 [ Musgrave Texture ]
-Scale 6.800
+Scale 2.500
 Detail 10.600
 Dimension 1.200
 Lacunalirity 1.700
@@ -25,6 +17,7 @@ HEIGH <---> HEIGH [ Bump ]
 
 [ Bump ]
 Strenghth 0.2
+Distance 1.0
 NORMAL <---> NORMAL [ Principled BSDF ]
 
 [ Principled BSDF ]
@@ -34,11 +27,13 @@ Transmission: 1
 BSDF <---> SURFACE [ Material Output ]
 
 [ Noise Texture ]
-Scale 6.000
-Detail: 2.500
-Roughness: 0.2
-Dist: 1.5
-FAC <---> DISPLACEMENT [ Material Output ]
+Scale 2.500
+Detail 1.0
+Rough 0.2
+Distortion 1.5
+FACTOR <---> DISPLACEMENT [ Material Output ]
+
+# For more details #
 
 [ Principled Volume ]
 Density 0.30
