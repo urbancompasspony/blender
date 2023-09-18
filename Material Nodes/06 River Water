@@ -1,0 +1,22 @@
+
+To bigger masses of Water like rivers or even the ocean!
+
+Add:
+
+[ Noise Texture ]
+Scale 4.280
+Detail 2.000
+Rough. 0.500
+Distotion 0.0
+FACTOR <---> FACTOR [ Color Ramp A ]
+FACTOR <---> FACTOR [ Color Ramp B ]
+
+[ Color Ramp A ]
+Black around \/ (right after minus simbol)
+White as is, extreme right.
+COLOR <---> ROUGHNESS [ Principled BSDF ]
+
+[ Color Ramp B ]
+Black around \/ (right after minus simbol)
+White around "e" of Linear word!
+COLOR <---> STRENGTH [ Bump ]

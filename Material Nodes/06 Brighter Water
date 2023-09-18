@@ -1,8 +1,0 @@
-Add:
-
-[ LightPath ]
-Set
-Glossy Depth <---> VOLUME [ Material Output ]
-or
-Transmission Depth <---> VOLUME [ Material Output ]
-
