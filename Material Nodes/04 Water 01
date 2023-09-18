@@ -4,8 +4,8 @@ Nodes used here:
 [ Material Output]
 
 [ Principled BSDF ]
-Metallic: 0.2
 Roughness: 0
+IOR: 1.33
 Transmission: 1
 BSDF <---> SURFACE [ Material Output]
 
