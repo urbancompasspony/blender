@@ -1,0 +1,33 @@
+[ Light Path ]
+RAY DEPTH <---> Value [ Math ]
+
+[ Math ]
+Set Greater Than
+Threshold 10.0
+VALUE <---> FACTOR [ Mix Shader ]
+
+[ Glass BSDF ]
+Beckmann
+Color CIANO
+Rough 0.0
+IOR 1.330
+BSDF <---> SHADER A [ Mix Shader ]
+
+[ Transparent BSDF ]
+BSDF <---> SHADER B [ Mix Shader ]
+
+[ Mix Shader ]
+SHADER <---> Surface [ Material Output ]
+
+[ Musgrave Texture ]
+Scale 4.0
+Detail 15.0
+Dimension 2.0
+Lacunarity 2.0
+HEIGHT <---> HEIGHT [ Displacement ]
+
+[ Displacement ]
+Object Space
+Midlevel 0.5
+Scale 0.2
+DISPLACEMENT <---> DISPLACEMENT [ Material Output ]
