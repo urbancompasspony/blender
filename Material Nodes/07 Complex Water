@@ -27,7 +27,7 @@ Transmission: 1
 BSDF <---> SURFACE [ Material Output ]
 
 [ Noise Texture ]
-Scale 2.500
+Scale 6.0
 Detail 1.0
 Rough 0.2
 Distortion 1.5
