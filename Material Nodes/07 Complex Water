@@ -7,7 +7,7 @@ Nodes used here:
 [ Principled BSDF ]
 [ Noise Texture ]
 [ Principled Volume ]
-[ LightPath ]
+[ Volume Absorption ]
 [ Mix Shader ]
 
 [ Texture Coordinate ]
@@ -40,14 +40,15 @@ Roughness: 0.2
 Dist: 1.5
 FAC <---> DISPLACEMENT [ Material Output ]
 
-# TO GLOW WATER! #
-
 [ Principled Volume ]
 Density 0.30
+Emission Strength 0.2 (This sets how brighter and/or glossy water is!)
+Emission Color [SET COLOR HERE!]
 VOLUME <---> SHADER A [ Mix Shader ]
 
-[ LightPath ]
-Glossy Depth <---> SHADER B [ Mix Shader ]
+[ Volume Absorption ]
+Density 6.800 (To more dense water like a river)
+VOLUME <---> SHADER B [ Mix Shader ]
 
 [ Mix Shader ]
 Factor 0.250
