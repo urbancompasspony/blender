@@ -24,8 +24,8 @@ Strenghth 0.2
 NORMAL <---> NORMAL [ Principled BSDF ]
 
 [ Principled BSDF ]
-Metallic: 0.2
 Roughness: 0
+IOR: 1.33
 Transmission: 1
 BSDF <---> SURFACE [ Material Output]
 
