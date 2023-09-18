@@ -1,0 +1,41 @@
+
+> Create a big retangle/mesh.
+> Remove Principled BSDF.
+
+Set Light: Create SUN emission!
+Set color to 0.100, low yellow
+Streght: 20.000
+
+[ Glass BSDF ]
+IOR 1.333
+BSDF <---> Shader A [ Mix Shader A ]
+
+[ Transparent BSDF ]
+BSDF <---> Shader B [ Mix Shader A ]
+
+[ Light Path ]
+SHADOW RAY <---> FACTOR [ Mix Shader A ]
+
+[ Noise Texture ]
+Scale 120.0 (Adjust if needed!)
+FACTOR <---> HEIGHT [ Bump ]
+
+[ Bump ]
+Streght 0.05
+NORMAL <---> NORMAL [ Glass BSDF ]
+
+[ Principled BSDF ]
+Set color here: A7E7D2
+Emission Streight 0.1
+Emission Color: 485B55
+BSDF <---> SHADER A [ Add Shader ]
+
+[ Volume Absorption ]
+Color: CCE7DC
+Density 0.3
+VOLUME <---> SHADER B [ Add Shader ]A
+
+[ Add Shader ]
+SHADER <---> VOLUME [ Material Output ]
+
+Adjust sun angle!
