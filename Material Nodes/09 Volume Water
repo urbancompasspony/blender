@@ -17,11 +17,13 @@ BSDF <---> Shader B [ Mix Shader A ]
 SHADOW RAY <---> FACTOR [ Mix Shader A ]
 
 [ Noise Texture ]
-Scale 120.0 (Adjust if needed!)
+Scale 120.0
 FACTOR <---> HEIGHT [ Bump ]
 
 [ Bump ]
-Streght 0.05
+Streght 0.1 (to low waves)
+Streght 0.5 (to medium waves)
+Streght 1.0 (to high waves)
 NORMAL <---> NORMAL [ Glass BSDF ]
 
 [ Principled BSDF ]
