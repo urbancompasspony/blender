@@ -15,9 +15,12 @@ AutoExtrude: LCtrl + RightClick
 
 Search: F3
 
-Group Nodes: Ctrl + J
+Group Nodes: LCtrl + J
 Rename Nodes or Groups: F2
 
 Pivot Pint: Alt + ;
 
 Use SNAP to set an object to another as reference
+
+Separate meshes: P
+Join: LCtrl + J
