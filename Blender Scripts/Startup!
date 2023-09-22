@@ -1,0 +1,6 @@
+
+Add a startup.blend file inside:
+
+~/.config/blender/$VERSION/config
+
+to start a pre-configured definition for blender!
