@@ -28,3 +28,9 @@ Boolean only.
 GOLD RULE:
 It's important that Voxel Size of Domain is smaller than the Inflow (Sphere) Object!
 So either make the Inflow Object bigger; or increase the Resolution Divisions (32 by default to something like 250)
+
+Tweaks:
+In the Physic Properties settings of the Liquid Domain is an option called Fluid > [X] Liquid > [X] Fractional Obstacles.
+When it's enabled obstacles will create much more splashes.
+
+
