@@ -20,7 +20,7 @@ Inside:
 * Import-Export: Biovision Motion Cap (for animations)
 * Import-Export: FBX Format (for models)
 * Import-Export: Import Images as Planes
-* * Import-Export: MDD Format (for exporting animation frames)
+* Import-Export: MDD Format (for exporting animation frames)
 * Import-Export: STL Format (for 3D Printer)
 * Import-Export: Scalable Vector Graphics (SVG)
 * Import-Export: Stanford PLY Format
