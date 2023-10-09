@@ -38,4 +38,5 @@ Inside:
 * Node: Node Arrange
 * Node: Node Presets
 * Node: Node Wrangler (to best workflow with material nodes)
+* Lighting: Tri-lighting
 
