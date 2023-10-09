@@ -8,35 +8,34 @@ Outside:
 
 Inside:
 
-* Add Curve: ExtraObjects (to add more curves)
+* Add Curve: Extra Objects (to add more curves)
 * Add Curve: Ivygen (generate ivy!)
-* Add Mesh: Archimesh (to add more meshes)
+* Add Curve: Sampling Tree Gen
 * Add Mesh: A.N.T. Landscape (to generate procedural terrain)
+* Add Mesh: Archimesh (to add more meshes)
 * Add Mesh: Discombulator (to discombulator some things idk)
-* Mesh: ExtraObjects (to add more meshes)
-* Mesh: Building Tools
-* Mesh: LoopTools
-* Mesh: Edit Mesh Tools
-* Object: TreeGen
-* Object: Object Carver
-* Object: Cell Fracture (to explode some things)
+* Add Mesh: Extra Objects (to add more meshes)
 * Animation: Pose Library
-* Import-Export: Import Images as Planes
-* Import-Export: Biovision Motion Cap (for animations)
-* Import-Export: DAZ Importer (for models)
-* Import-Export: FBX Format (for models)
-* Import-Export: MDD Format (for exporting animation frames)
-* Import-Export: STL Format (for 3D Printer)
-* Import-Export: SVG Format (for images)
-* Import-Export: OBJ Format (for models)
-* Import-Export: Web3D format (for Web)
-* Import-Export: PLY Format
-* Import-Export: gITF Format
-* Render: Cycles Engine (MUST HAVE to high quality renders)
 * Camera: Add Camera Rigs
-* Rigging: Rigify
+* Import-Export: Biovision Motion Cap (for animations)
+* Import-Export: FBX Format (for models)
+* Import-Export: Import Images as Planes
+* * Import-Export: MDD Format (for exporting animation frames)
+* Import-Export: STL Format (for 3D Printer)
+* Import-Export: Scalable Vector Graphics (SVG)
+* Import-Export: Stanford PLY Format
+* Import-Export: UV Layout
+* Import-Export: Wavefront OBJ Format (for models)
+* Import-Export: Web3D format (for Web)
+* Import-Export: gITF 2.0 format
+* Lighting: Tri-lighting
+* Material: Material Library
+* Mesh: Edit Mesh Tools
+* Mesh: LoopTools
 * Node: Node Arrange
 * Node: Node Presets
-* Node: Node Wrangler (to best workflow with material nodes)
-* Lighting: Tri-lighting
-
+* Node: Node Wrangler (Extra Menu Ctrl+W clicking on some texture nodes)
+* Object: Object Carver
+* Object: Cell Fracture (to explode some things)
+* Render: Cycles Engine (MUST HAVE to high quality renders)
+* Rigging: Rigify
