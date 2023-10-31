@@ -1,0 +1,15 @@
+- Get a ring model. Duh!
+- Create an internal and external texts. Duh²!
+Edit texts, size to around 5.000, Center/Middle alignment, word spacing to 10.000
+- Use these modifiers on this order:
+1- Solidifier - set to 0.8m
+2- Remesh - set to 0.05 m
+3- curve - curve object internal text, deform axis X; to external text use -X
+Use the arrows to adjust scale and rotation
+
+When applying everything, do not save!
+Just keep as is to edit text keeping all configs.
+- Convert text to mesh
+- Apply boolean on text to ring
+- Convert the ring with remesh to remove all no wanted vertices
+- Export as .stl keeping selected and blender scale
