@@ -5,6 +5,7 @@ Outside:
 * [Mixamo Rigs](https://substance3d.adobe.com/plugins/mixamo-in-blender/) (Add-on for Rig!)
 * [Expy Kit](https://github.com/pKrime/Expy-Kit) (To convert rigs from different platforms and insert on different meshs)
 * [SourceIO](https://github.com/REDxEYE/SourceIO/releases) (To import Source and Source2 objects!)
+* [fspy](https://github.com/stuffmatic/fSpy-Blender/releases) (To import .fspy cameras!)
 
 Inside:
 
