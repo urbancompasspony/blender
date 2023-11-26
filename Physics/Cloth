@@ -3,6 +3,8 @@ Physics Tab > set Collision
 
 To the object that will be clothified:
 Physics Tab > set Cloth
-TAB on the object > Right Click > Subdivide to around 50
+TAB on the object > Right Click > Subdivide to around 100
+
+Turn On Smooth with right click, and use Subdivision Modifier, set to 2, to make the model smooth!
 
 Turn on disk cache to have more FPS!
