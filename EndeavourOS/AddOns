@@ -1,0 +1,4 @@
+
+ERRORS ON BLENDERKIT AND POLIIGON?
+
+sudo pacman -S python-aiohttp
