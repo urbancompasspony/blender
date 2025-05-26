@@ -1,8 +1,12 @@
-Resolvendo LightBleed:
-- Solidify
-- Angle or Radius of Light
-- Shadow Steps to 10 or 12
-
 Less noise shadows:
 View + Render 64 steps
 Rays to 2
+Shadow Steps to 10 or 12
+Resolvendo LightBleed:
+- Solidify Object
+- Angle or Radius of Light
+
+CLAMPING Surface Indirect Light = 1.0 (?)
+
+Light Probe> PLANE
+Resize to get all object area!
