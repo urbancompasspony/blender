@@ -14,3 +14,15 @@ Click VIEWPORT Display Capture to see it in live.
 Anoying: It spawns bellow necessary, so click and move it slightly up, around 0.1 or 0.2
 
 And a Spherical Probe around object that needs to reflect everything around, like eyes!
+
+Ray Tracing Resolution:
+1:1 = 100%
+1:2 = 50%
+
+Fast GI Aproximation: Set steps from 8 to 16
+Distance to 0 = infinite
+Set to something around the object to limit hardware use.
+
+Create Lightprobe Volume to better results with lights!
+
+RT > Denoising > Temporal Accumulation OFF!
