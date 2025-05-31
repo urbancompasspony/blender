@@ -16,12 +16,25 @@ Inside:
 * Add Mesh: Archimesh (to add more meshes)
 * Add Mesh: Discombulator (to discombulator some things idk)
 * Add Mesh: Extra Objects (to add more meshes)
-* Animation: Pose Library
+* Material: Material Library
+* Mesh: LoopTools
+* Mesh: Edit Mesh Tools
+* Lighting: Tri-lighting
+* Node: Node Presets
+* Node: Node Wrangler (Extra Menu Ctrl+W clicking on some texture nodes)
+* Node: Node Arrange
+* Object: Object Carver
+* Object: Cell Fracture (to explode some things)
 * Camera: Add Camera Rigs
+* Rigging: Rigify
+* Animation: Pose Library
+* MDD Format (for exporting animation frames)
+
+Extensions: Get from https://extensions.blender.org/
+
 * Import-Export: Biovision Motion Cap (for animations)
 * Import-Export: FBX Format (for models)
 * Import-Export: Import Images as Planes
-* Import-Export: MDD Format (for exporting animation frames)
 * Import-Export: STL Format (for 3D Printer)
 * Import-Export: Scalable Vector Graphics (SVG)
 * Import-Export: Stanford PLY Format
@@ -29,14 +42,3 @@ Inside:
 * Import-Export: Wavefront OBJ Format (for models)
 * Import-Export: Web3D format (for Web)
 * Import-Export: gITF 2.0 format
-* Lighting: Tri-lighting
-* Material: Material Library
-* Mesh: Edit Mesh Tools
-* Mesh: LoopTools
-* Node: Node Arrange
-* Node: Node Presets
-* Node: Node Wrangler (Extra Menu Ctrl+W clicking on some texture nodes)
-* Object: Object Carver
-* Object: Cell Fracture (to explode some things)
-* Render: Cycles Engine (MUST HAVE to high quality renders)
-* Rigging: Rigify
