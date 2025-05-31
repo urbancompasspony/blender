@@ -9,7 +9,7 @@ Resolvendo LightBleed:
 - Solidify Object
 - Angle or Radius of Light
 
-CLAMPING Surface Indirect Light = Ideal is 10.0
+CLAMPING Surface Indirect Light = Ideal is 10 but reduce to 3.0!
 Or 1.0 to less light.
 
 Light Probe> PLANE
