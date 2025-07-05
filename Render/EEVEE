@@ -1,31 +1,51 @@
 Sampling ViewPort DISABLE temporal reprojection
 RT > Denoising > Temporal Accumulation OFF!
 
-View + Render 64 steps
+Sampling - Viewport and Render - Samples 64 steps
 Shadow Rays to 2
-Shadow Steps to 10 or 12
-
-Resolvendo LightBleed:
-- Solidify Object
-- Angle or Radius of Light
+Shadow Steps to 12
 
 CLAMPING Surface Indirect Light = Ideal is 10 but reduce to 3.0!
 Or 1.0 to less light.
-
-Light Probe> PLANE
-Resize to get all object area!
-Click VIEWPORT Display Capture to see it in live.
-Anoying: It spawns bellow necessary, so click and move it slightly up, around 0.1 or 0.2
-
-And a Spherical Probe around object that needs to reflect everything around, like eyes!
 
 Ray Tracing Resolution:
 1:1 = 100%
 1:2 = 50%
 
-Fast GI Aproximation: Set steps from 8 to 16
-Distance to 0 = infinite
-Set to something around the object to limit hardware use.
+Volumes:
+1:2 50%
+64 steps too
+Nax Depth 12
+Custom range to 10000 m
+
+Fast GI Aproximation: Set steps from 8 to 10
+Distance to 0 = infinite - Set to something around the object to limit hardware use.
+
+Performance
+High Quality Normals
+Memory 1 GB
+Compositor GPU
+Denoise Nodes HIGH HIGH
+
+Motion Blur ON
+
+Color Management:
+AGX
+
+
+
+
+#################################
+TIPS AND TRICKS:
+
+Resolvendo LightBleed:
+- Solidify Object
+- Angle or Radius of Light
 
 Create Lightprobe Volume to better results with lights!
 
+Light Probe> PLANE
+Resize to get all object area!
+Click VIEWPORT Display Capture to see it in live.
+Anoying: It spawns bellow necessary, so click and move it slightly up, around 0.1 or 0.2
+And a Spherical Probe around object that needs to reflect everything around, like eyes!
